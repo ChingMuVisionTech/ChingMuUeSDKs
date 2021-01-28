@@ -1,0 +1,33 @@
+{
+  "FileVersion": 3,
+  "Version": 2,
+  "VersionName": "1.3",
+  "FriendlyName": "CMTracker Unreal Plugin",
+  "Description": "CMTracker Plugin for Unreal",
+  "Category": "ChingMU Mocap",
+  "CreatedBy": "Shanghai ChingMU Vision Technology Co.,Ltd",
+  "CreatedByURL": "http://www.chingmu.com",
+  "DocsURL": "",
+  "MarketplaceURL": "",
+  "SupportURL": "http://www.chingmu.com",
+  "EnabledByDefault": true,
+  "CanContainContent": true,
+  "IsBetaVersion": false,
+  "Installed": false,
+  "Modules": [
+    {
+      "Name": "MotionCapture",
+      "Type": "Runtime",
+      "LoadingPhase": "PostConfigInit",
+      "WhitelistPlatforms": [
+        "Win32",
+        "Win64"
+      ]
+    },
+    {
+      "Name": "MotionCaptureEditor",
+      "Type": "DeveloperTool",
+      "LoadingPhase": "PostConfigInit"
+    }
+  ]
+}

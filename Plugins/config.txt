@@ -1,0 +1,19 @@
+MCServer@127.0.0.1
+-1
+-2
+-3
+-4
+-5
+-6
+-7
+0
+
+//IP£ºMCServer@sh1dt010
+//HEAD
+//Weapon
+//body
+//left hand
+//right hand
+//left ankle
+//right ankle
+//HumanID

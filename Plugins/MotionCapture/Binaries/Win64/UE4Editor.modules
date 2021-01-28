@@ -1,0 +1,8 @@
+{
+	"BuildId": "14830424",
+	"Modules": 
+	{
+		"MotionCapture": "UE4Editor-MotionCapture.dll",
+		"MotionCaptureEditor": "UE4Editor-MotionCaptureEditor.dll"
+	}
+}
