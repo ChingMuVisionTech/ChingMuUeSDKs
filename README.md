@@ -1,4 +1,4 @@
-# ChingMu UE Sdk plugin project的使用说明
+# ChingMU UE Sdk plugin project的使用说明
 
 ### 1 版本说明
 本工程是基于UE4.26的c++工程。VS版本是2017。
