@@ -17,6 +17,6 @@
 （2）解压后，在Plugins文件下找到 青瞳UE4插件使用帮助手册 如下图所示<br>
 <img src="./imgs/UE4Plugin_description_02.png" width="685px" height="300px" title="打开插件使用帮助文档"/><br>
 
-（3）解压后，打开 青瞳UE4插件使用帮助手册 跟随文档中的目录章节学习如何使用插件中的相关功能。<br>
+（3）打开 青瞳UE4插件使用帮助手册 跟随文档中的目录章节学习如何使用插件提供的相关功能。<br>
 <img src="./imgs/UE4Plugin_description_03.png" width="730px" height="270px" title="插件使用帮助文档目录"/>
 
