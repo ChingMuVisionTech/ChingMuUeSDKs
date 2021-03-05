@@ -161,6 +161,12 @@ void UChingMUComponent::DisConnectServer()
 	}
 	else
 	{
+		motionCapturePlugin->CnState = ConnectState::NoConnect;
+		addr = motionCapturePlugin->CMServerAddress;
+		if (addr.Contains("MCServer@") && addr.Contains("3884"))
+		{
+			motionCapturePlugin->ConnectCommand = "DisConnect";
+		}
 		FString s3 = motionCapturePlugin->CMServerAddress + " it is not Connected from ChingMU Commponent ";
 		UE_LOG(LogTemp, Warning, TEXT(" %s"), *s3);
 	}
