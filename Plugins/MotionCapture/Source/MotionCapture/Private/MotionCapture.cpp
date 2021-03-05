@@ -44,10 +44,10 @@ void FMotionCapture::Shutdown()
 }
 
 /// <summary>
-/// ×·×ÙÈÕÖ¾  
+/// è¿½è¸ªæ—¥å¿—  
 /// Track log
 /// </summary>
-/// <param name="address">ServerIP£¬for example:"MCServer@192.168.3.178" or "MCServer@SH1DT010"</param>
+/// <param name="address">ServerIPï¼Œfor example:"MCServer@192.168.3.178" or "MCServer@SH1DT010"</param>
 /// <param name="channel">ID of Body</param>
 /// <returns></returns>
 double FMotionCapture::CMAnalog(ANSICHAR* address, int32 channel)
@@ -61,12 +61,12 @@ bool FMotionCapture::CMButton(ANSICHAR* address, int32 channel)
 	return CMButtonExtern(address, channel, GFrameCounter);
 }
 
-// ÆÕÍ¨¸ÕÌå×·×Ù.............................................................................................................................................................
+// æ™®é€šåˆšä½“è¿½è¸ª.............................................................................................................................................................
 /// <summary>
-/// ¸ÕÌå×·×ÙÊı¾İµÄ¿Õ¼äÎ»ÖÃPosition
+/// åˆšä½“è¿½è¸ªæ•°æ®çš„ç©ºé—´ä½ç½®Position
 /// Get the Position of tracker Body
 /// </summary>
-/// <param name="address">ServerIP£¬for example:"MCServer@192.168.3.178" or "MCServer@SH1DT010"</param>
+/// <param name="address">ServerIPï¼Œfor example:"MCServer@192.168.3.178" or "MCServer@SH1DT010"</param>
 /// <param name="channel">ID of Body</param>
 /// <return
 FVector FMotionCapture::CMTrackerPos(ANSICHAR* address, int32 channel)
@@ -81,10 +81,10 @@ FVector FMotionCapture::CMTrackerPos(ANSICHAR* address, int32 channel)
 }
 
 /// <summary>
-/// ¸ÕÌå×·×ÙÊı¾İµÄĞı×ªÖµQuaternion
+/// åˆšä½“è¿½è¸ªæ•°æ®çš„æ—‹è½¬å€¼Quaternion
 /// Get the Rotation of tracker Body
 /// </summary>
-/// <param name="address">ServerIP£¬for example:"MCServer@192.168.3.178" or "MCServer@SH1DT010"</param>
+/// <param name="address">ServerIPï¼Œfor example:"MCServer@192.168.3.178" or "MCServer@SH1DT010"</param>
 /// <param name="channel">ID of Body</param>
 /// <param name="lockYRotation">if value is true,the Y axis of rotation  will be lock </param>
 /// <returns></returns>
@@ -137,14 +137,14 @@ FTransform FMotionCapture::CMTrackerTC(ANSICHAR* address, int32 channel, FTimeco
 	return transform;
 }
 
-// Í·ÏÔ×·×Ù....................................................................................................................................................................
+// å¤´æ˜¾è¿½è¸ª....................................................................................................................................................................
 /// <summary>
-/// »ñÈ¡¸ÕÌå×·×ÙÊı¾İºÍÍ·ÏÔÍÓÂİÒÇÊı¾İÈÚºÏºóµÄ¿Õ¼äÎ»ÖÃPosition
+/// è·å–åˆšä½“è¿½è¸ªæ•°æ®å’Œå¤´æ˜¾é™€èºä»ªæ•°æ®èåˆåçš„ç©ºé—´ä½ç½®Position
 /// Get the position  data that Merge tracker Body data with IMU of HMD 
 /// </summary>
-/// <param name="address">ServerIP£¬for example:"MCServer@192.168.3.178" or "MCServer@SH1DT010"</param>
+/// <param name="address">ServerIPï¼Œfor example:"MCServer@192.168.3.178" or "MCServer@SH1DT010"</param>
 /// <param name="channel">ID of Body</param>
-/// <param name="R_oculus¡¢T_oculus">the RT  of IMU</param>
+/// <param name="R_oculusã€T_oculus">the RT  of IMU</param>
 /// <returns></returns>
 FVector FMotionCapture::CMHeadPos(ANSICHAR* address, int32 channel, double* R_oculus, double* T_oculus)
 {
@@ -157,12 +157,12 @@ FVector FMotionCapture::CMHeadPos(ANSICHAR* address, int32 channel, double* R_oc
 }
 
 /// <summary>
-/// »ñÈ¡¸ÕÌå×·×ÙÊı¾İºÍÍ·ÏÔÍÓÂİÒÇÊı¾İÈÚºÏºóµÄËÄÔªËØĞı×ªÖµ
+/// è·å–åˆšä½“è¿½è¸ªæ•°æ®å’Œå¤´æ˜¾é™€èºä»ªæ•°æ®èåˆåçš„å››å…ƒç´ æ—‹è½¬å€¼
 /// Get the rotation  data that Merge tracker Body data with IMU of HMD 
 /// </summary>
-/// <param name="address">ServerIP£¬for example:"MCServer@192.168.3.178" or "MCServer@SH1DT010"</param>
+/// <param name="address">ServerIPï¼Œfor example:"MCServer@192.168.3.178" or "MCServer@SH1DT010"</param>
 /// <param name="channel">ID of Body</param>
-/// <param name="R_oculus¡¢T_oculus">the RT  of IMU</param>
+/// <param name="R_oculusã€T_oculus">the RT  of IMU</param>
 /// <returns>Quaternion of that merge tracker quaternion and quaternion of IMU</returns>
 FQuat FMotionCapture::CMHeadQuat(ANSICHAR* address, int32 channel, double* R_oculus, double* T_oculus)
 {
@@ -183,12 +183,12 @@ FQuat FMotionCapture::CMTouchQuat(ANSICHAR* address, int32 channel, double* R_oc
 	return CMHeadQuat(address, channel, R_oculus, T_oculus);
 }
 
-// È«Éí¶¯²¶......................................................................................................................................................................................
+// å…¨èº«åŠ¨æ•......................................................................................................................................................................................
 /// <summary>
-/// »ñÈ¡È«Éí¶¯²¶Êı¾İ½Ó¿Ú£¬°üÀ¨23¸ö¹Ø½ÚÏà¶ÔĞı×ªÖµ£¬ºÍ¸ù¹Ç÷ÀHipµÄÊÀ½ç×ø±ê
+/// è·å–å…¨èº«åŠ¨æ•æ•°æ®æ¥å£ï¼ŒåŒ…æ‹¬23ä¸ªå…³èŠ‚ç›¸å¯¹æ—‹è½¬å€¼ï¼Œå’Œæ ¹éª¨éª¼Hipçš„ä¸–ç•Œåæ ‡
 /// Get Human Fullbody Tracker data ,including of 23joints localRotation and root joint world Position;
 /// </summary>
-/// <param name="address">ServerIP£¬for example:"MCServer@192.168.3.178" or "MCServer@SH1DT010"</param>
+/// <param name="address">ServerIPï¼Œfor example:"MCServer@192.168.3.178" or "MCServer@SH1DT010"</param>
 /// <param name="channel">ID of human</param>
 /// <param name="pos">root joint world Position</param>
 /// <param name="boneRot">21joints localRotation</param>
@@ -311,7 +311,7 @@ bool FMotionCapture::CMRetargetHumanTC(ANSICHAR* address, int32 channel, FTimeco
 			{
 				if (IsCheckedForceFaceX)
 				{
-					//Client to  UE4 ÊÀ½ç×ø±êÏµ×ª»»
+					//Client to  UE4 ä¸–ç•Œåæ ‡ç³»è½¬æ¢
 					// set pos
 					pos[i].X = bonePosition[3 * i + 1] / 10.0;
 					pos[i].Y = bonePosition[3 * i + 0] / 10.0;
@@ -323,24 +323,24 @@ bool FMotionCapture::CMRetargetHumanTC(ANSICHAR* address, int32 channel, FTimeco
 				else 
 				{
 #if 1
-					//Client to  MB ÊÀ½ç×ø±êÏµ×ª»»
+					//Client to  MB ä¸–ç•Œåæ ‡ç³»è½¬æ¢
 					// set pos
-					Mb_pos[i].X = -bonePosition[3 * i + 0] / 10.0; //tracker clientµÄµ¥Î»ÊÇmm ,mb ,mayaµÄµ¥Î»ÊÇcm
+					Mb_pos[i].X = -bonePosition[3 * i + 0] / 10.0; //tracker clientçš„å•ä½æ˜¯mm ,mb ,mayaçš„å•ä½æ˜¯cm
 					Mb_pos[i].Y = bonePosition[3 * i + 2] / 10.0;
 					Mb_pos[i].Z = bonePosition[3 * i + 1] / 10.0;
 					// set rotation
 					Mb_boneRot[i] = FQuat(-(float)boneAttitude[i * 4 + 0], (float)boneAttitude[i * 4 + 2], (float)boneAttitude[i * 4 + 1], (float)boneAttitude[i * 4 + 3]);
 
 
-					//MB to UE4 ÊÀ½ç×ø±êÏµ×ª»»£¨Õâ¸öµØ·½ÊÂÊµÉÏÃ»ÓĞ°´ÕÕMBÓëUE4×ø±êÖá·½ÏòµÄ²îÒìÀ´×ª»»,Õâ¸öµØ·½Êµ¼ÊÉÏÊÇ²âÊÔ³öÀ´µÄ£¬Ä¿Ç°Ö»²âÊÔÁËMB»òMAYAµ½UE4µÄ×ª»»£¬ÕâÖÖ×ª»»ÊÇ¶ÔµÄ£¬MBÓëMAYAµÄÊÀ½ç×ø±êÏµÊÇÒ»ÑùµÄ£©
+					//MB to UE4 ä¸–ç•Œåæ ‡ç³»è½¬æ¢ï¼ˆè¿™ä¸ªåœ°æ–¹äº‹å®ä¸Šæ²¡æœ‰æŒ‰ç…§MBä¸UE4åæ ‡è½´æ–¹å‘çš„å·®å¼‚æ¥è½¬æ¢,è¿™ä¸ªåœ°æ–¹å®é™…ä¸Šæ˜¯æµ‹è¯•å‡ºæ¥çš„ï¼Œç›®å‰åªæµ‹è¯•äº†MBæˆ–MAYAåˆ°UE4çš„è½¬æ¢ï¼Œè¿™ç§è½¬æ¢æ˜¯å¯¹çš„ï¼ŒMBä¸MAYAçš„ä¸–ç•Œåæ ‡ç³»æ˜¯ä¸€æ ·çš„ï¼‰
 					// set pos
-					pos[i].X = Mb_pos[i].X;//  ue4µ¥Î»ÊÇcm
+					pos[i].X = Mb_pos[i].X;//  ue4å•ä½æ˜¯cm
 					pos[i].Y = -Mb_pos[i].Y;// 
 					pos[i].Z = Mb_pos[i].Z;// 
 					// set rotation
 					boneRot[i] = FQuat((float)Mb_boneRot[i].X, -(float)Mb_boneRot[i].Y, (float)Mb_boneRot[i].Z, -(float)Mb_boneRot[i].W);
 #else
-					// set pos //·¢¸ø»¢ÑÀÖ±²¥µÄ£¬¶ÔÓ¦ºúÓÂĞŞ¸Ä¹ı×¨ÃÅ·¢¸ø»¢ÑÀµÄCMTrack°æ±¾£¬Ò»¸öÓ¦¼±°æ±¾£¬±ØĞë´îÅäĞŞ¸Ä¶¯»­À¶Í¼½Úµã£¬ÔÚÇı¶¯¸Õ¿ªÊ¼µÄÊ±ºòĞı×ªÒ»ÏÂ½ÇÉ«£¬°Ñ½ÇÉ«´ÓµØÃæ°áÆğÀ´
+					// set pos //å‘ç»™è™ç‰™ç›´æ’­çš„ï¼Œå¯¹åº”èƒ¡å‹‡ä¿®æ”¹è¿‡ä¸“é—¨å‘ç»™è™ç‰™çš„CMTrackç‰ˆæœ¬ï¼Œä¸€ä¸ªåº”æ€¥ç‰ˆæœ¬ï¼Œå¿…é¡»æ­é…ä¿®æ”¹åŠ¨ç”»è“å›¾èŠ‚ç‚¹ï¼Œåœ¨é©±åŠ¨åˆšå¼€å§‹çš„æ—¶å€™æ—‹è½¬ä¸€ä¸‹è§’è‰²ï¼ŒæŠŠè§’è‰²ä»åœ°é¢æ¬èµ·æ¥
 					pos[i].X = bonePosition[3 * i + 0];// / 10.0;
 					pos[i].Y = -bonePosition[3 * i + 1];// / 10.0;
 					pos[i].Z = bonePosition[3 * i + 2];// / 10.0;
@@ -349,6 +349,15 @@ bool FMotionCapture::CMRetargetHumanTC(ANSICHAR* address, int32 channel, FTimeco
 #endif
 				}
 
+			}
+			else
+			{
+			        pos[i].X = 0;
+				pos[i].Y = 0;
+				pos[i].Z = 0;
+
+				// set rotation
+				boneRot[i] = FQuat(0, 0, 0, 1);
 			}
 		}
 	}
@@ -524,6 +533,10 @@ bool FMotionCapture::Tick(float DeltaSeconds)
 			CnState = ConnectState::Connecting;
 			CMPluginStart();
 		}
+		elseif(ConnectCommand == "DisConnect")
+		{
+		        DisConnectAndUnRegister();
+		}
 		break;
 	}
 
@@ -583,7 +596,7 @@ bool FMotionCapture::Tick(float DeltaSeconds)
 		long ct = min * 60 + second;
 		int dt =  ct-LastT;
 		FString f = " IsResetHierarchyCore  true ";
-		UE_LOG(LogTemp, Warning, TEXT("Ê±¼ä:%s   %d   %d   %d "), *f, ct, LastT, dt);
+		UE_LOG(LogTemp, Warning, TEXT("æ—¶é—´:%s   %d   %d   %d "), *f, ct, LastT, dt);
 		if (dt>=2) 
 		{
 			BonesInforsFromClient.Reset();
@@ -690,7 +703,7 @@ void __stdcall  FMotionCapture::ResetCharacterHierarchy(void*, VrpnResetHier b)
 	int min =FDateTime::Now().GetMinute();
 	LastT= min*60 + FDateTime::Now().GetSecond();
 
-	UE_LOG(LogTemp, Warning, TEXT("Ê±¼ä:%s,   %d"), *s2, LastT);
+	UE_LOG(LogTemp, Warning, TEXT("æ—¶é—´:%s,   %d"), *s2, LastT);
 	//if (LastT==59) 
 	//{
 	//	LastT
@@ -715,7 +728,7 @@ void __stdcall  FMotionCapture::UpdateCharacterHierarchy(void *ref, VrpnHier hie
 	int hour = Time.GetHour();
 	int minute = Time.GetMinute();
 	int second = Time.GetSecond();
-	UE_LOG(LogTemp, Warning, TEXT("Ê±¼ä:%d, %d, %d, %d, %d, %d  %f  %f"), year, month, day, hour, minute, second, MCt, MCTickDeltaTime);*/
+	UE_LOG(LogTemp, Warning, TEXT("æ—¶é—´:%d, %d, %d, %d, %d, %d  %f  %f"), year, month, day, hour, minute, second, MCt, MCTickDeltaTime);*/
 	if (CurrentMaxTv_sec > LastMaxTv_sec)
 	{
 		BonesInforFromClient_t.Reset();
