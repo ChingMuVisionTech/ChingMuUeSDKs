@@ -709,6 +709,12 @@ void  SMotionCaptureEditorPanel::CMTracker_ConnectServer(ECheckBoxState IsExpand
 		}
 		else 
 		{
+			CMPlugin->CnState = ConnectState::NoConnect;
+			addr = CMPlugin->CMServerAddress;
+			if (addr.Contains("MCServer@") && addr.Contains("3884"))
+			{
+				CMPlugin->ConnectCommand = "DisConnect";
+			}
 			FString s3 = CMPlugin->CMServerAddress + " it is not Connected from ChingMU MotionCapRetargetPanel";
 			UE_LOG(LogTemp, Warning, TEXT(" %s"), *s3);
 		}
