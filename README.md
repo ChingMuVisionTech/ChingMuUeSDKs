@@ -16,7 +16,7 @@
 
 你可以使用ChingMU UE4插件在UE4中利用青瞳动捕来实现各种相关应用，如虚拟影视拍摄实时预览，虚拟角色直播，VR头显定位，或者其他物体的定位。
 
-### 3 如何开始
+### 3 如何开始 
 
 （1）在Git上下载相应版本的CMPluginForUE4，如下图所示<br>
 <img src="./imgs/UE4Plugin_description_01.png" width="58%" height="58%" title="Git上下载CMPluginForUE4"/><br>
