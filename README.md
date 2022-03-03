@@ -5,7 +5,7 @@
 [CMPlugin For UE4.25](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/ForUE4.25/CMPluginForUE4.25.rar)    
 [CMPlugin For UE4.26](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/ForUE4.26/CMPluginForUE4.26.zip)  
 [CMPlugin For UE4.27](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/UE4.27/CMPluginForUE4.27.zip)   
-[CMPlugin For UE5.00](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/UE5.0/CMPluginForUE5.0.zip)   
+[CMPlugin For UE5.00](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/UE5.0/CMPlugin_UE5.0.rar)   
 
 ### 1 引言
 
