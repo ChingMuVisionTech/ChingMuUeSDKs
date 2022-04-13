@@ -1,8 +1,6 @@
 ## ChingMU UE4 插件说明
 
 **插件下载：**       
-[CMPlugin For UE4.24](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/ForUE4.24/CMPluginForUE4.24.rar)    
-[CMPlugin For UE4.25](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/ForUE4.25/CMPluginForUE4.25.rar)    
 [CMPlugin For UE4.26](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/ForUE4.26/CMPlugin_UE4.26.rar)  
 [CMPlugin For UE4.27](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/UE4.27/CMPlugin_UE4.27.rar)   
 [CMPlugin For UE5.00](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/UE5.0/CMPlugin_UE5.0.rar)   
