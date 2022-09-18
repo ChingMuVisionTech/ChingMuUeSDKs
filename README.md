@@ -11,7 +11,7 @@
 [CMPlugin For UE4.27](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/CMPlugin_UE4.27/CMPlugin_UE4.27.rar)   
 [CMPlugin For UE5.00](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/CMPlugin_UE5.0/CMPlugin_UE5.0.rar) 
 
-[插件视频介绍](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/help/Help.mp4) 
+https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/help/Help.mp4
 ### 1 引言
 
 （1）ChingMU UE4插件提供了青瞳动捕在UE4中使用时的各种功能API接口。<br>
