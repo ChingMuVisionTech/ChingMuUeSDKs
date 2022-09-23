@@ -16,7 +16,7 @@
 ### 1 引言
 
 （1）ChingMU UE4插件提供了青瞳动捕在UE4中使用时的各种功能API接口。<br>
-（2）ChingMU UE4插件支持多个UE4版本，目前有ChingMU plugin for UE4.26,UE4.27,UE5.0三个版本在迭代更新。
+（2）ChingMU UE4插件支持多个UE4版本，目前有ChingMU plugin for UE4.27,UE5.0 版本在迭代更新。
 
 ### 2 用途与功能
 
