@@ -12,12 +12,12 @@
   
   **Beta version：**   
     
-    [插件帮助文档](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/Manual/Manual_CHN.docx)  
-    [Manual](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/Manual_ENG/Manual_ENG.docx)  
+[插件帮助文档](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/Manual/Manual_CHN.docx)  
+[Manual](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/Manual_ENG/Manual_ENG.docx)  
       
       
-    [插件视频教学](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/Tutorial/Tutorial.mp4)     
-    [Tutorial Video](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/Tutorial/Tutorial.mp4)
+[插件视频教学](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/Tutorial/Tutorial.mp4)     
+[Tutorial Video](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/Tutorial/Tutorial.mp4)
     
     
 ### 1 引言
