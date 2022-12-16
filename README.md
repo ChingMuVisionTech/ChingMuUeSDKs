@@ -15,7 +15,8 @@
 **新特性：**  
 
 （1）支持CMAvatar手指源数据。  
-（2）支持手套提供的手腕数据和光学手腕数据的混合，当光学数据不理想时使用手套提供的手腕数据。
+（2）支持手套提供的手腕数据和光学手腕数据的混合，当光学数据不理想时使用手套提供的手腕数据。  
+（3）精简了流程，简化了操作。
     
       
 [Plugin For UE4.27](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/CMMotionCapture_4.27/CMMotionCapture_4.27.rar)   
