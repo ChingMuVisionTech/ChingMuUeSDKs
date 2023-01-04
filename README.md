@@ -1,6 +1,8 @@
 ## ChingMU UE 插件说明
 
-### **插件下载：**       
+### **插件下载：**   
+
+V1.0:  
 
 [CMPlugin For UE4.27](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/CMPlugin_UE4.27/CMPlugin_UE4.27.zip)   
 [CMPlugin For UE5.00](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/CMPlugin_UE5.0/CMPlugin_UE5.0.rar)  
@@ -18,6 +20,7 @@
 （2）支持手套提供的手腕数据和光学手腕数据的混合，当光学数据不理想时使用手套提供的手腕数据。  
 （3）精简了流程，简化了操作。
     
+ V2.0:  
       
 [Plugin For UE4.27](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/CMMotionCapture_4.27/CMMotionCapture_4.27.rar)   
 [Plugin For UE5.00](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/CMMotionCapture_5.0/CMMotionCapture_5.0.rar)   
