@@ -5,7 +5,7 @@
 
 [CMPlugin For UE4.27 v 1.0](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/CMPlugin_UE4.27/CMPlugin_UE4.27.zip)   
 [CMPlugin For UE5.0 v 1.0](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/CMPlugin_UE5.0/CMPlugin_UE5.0.rar)  
-[CMPlugin For UE5.1  V 1.0](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/UE5.1/CMPlugin_UE5.1.rar) 
+[CMPlugin For UE5.1  v 1.0](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/UE5.1/CMPlugin_UE5.1.rar) 
 
 [插件帮助文档](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/new_UE_DOC/for.UE.doc)
 
@@ -20,9 +20,9 @@
 （3）精简了流程，简化了操作。
     
       
-[Plugin For UE4.27  V 2.0](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/CMMotionCapture_4.27/CMMotionCapture_4.27.rar)   
-[Plugin For UE5.0  V 2.0](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/CMMotionCapture_5.0/CMMotionCapture_5.0.rar)   
-[Plugin For UE5.1  V 2.0](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/CMMotionCapture_5.01/CMMotionCapture_5.1.rar)      
+[Plugin For UE4.27  v 2.0](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/CMMotionCapture_4.27/CMMotionCapture_4.27.rar)   
+[Plugin For UE5.0  v 2.0](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/CMMotionCapture_5.0/CMMotionCapture_5.0.rar)   
+[Plugin For UE5.1  v 2.0](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/CMMotionCapture_5.01/CMMotionCapture_5.1.rar)      
 
 [插件帮助文档](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/Manual/Manual_CHN.docx)  
 [Manual](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/Manual_ENG/Manual_ENG.docx)  
