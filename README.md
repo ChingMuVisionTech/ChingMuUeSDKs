@@ -19,9 +19,9 @@
 （2）支持手套提供的手腕数据和光学手腕数据的混合，当光学数据不理想时使用手套提供的手腕数据。  
 （3）精简了流程，简化了操作。
 
-**更新日志：**  
-v 2.0.1:  
-(1) 修复了工程不能打包的问题。  
+**更新日志：**    
+v 2.0.1:    
+ (1) 修复了工程不能打包的问题。  
     
       
 [Plugin For UE4.27  v 2.0](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/CMMotionCapture_4.27/CMMotionCapture_4.27.rar)   
