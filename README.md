@@ -2,6 +2,17 @@
 
 ### **插件下载：**   
 
+    
+      
+[Plugin For UE4.27  v 2.0.1](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/CMMotionCapture_4.27/CMMotionCapture_4.27_2.0.1.rar)   
+[Plugin For UE5.0  v 2.1.1](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/CMMotionCapture_5.0/CMMotionCapture_5.0_2.1.1.rar)   
+[Plugin For UE5.1  v 2.1.1](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/CMMotionCapture_5.01/CMMotionCapture_5.1_2.1.1.rar)      
+
+[插件帮助文档](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/Manual/Manual_CN.docx)  
+[Manual](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/Manual_ENG/Manual_ENG.docx)  
+      
+[插件视频教学](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/Tutorial/Tutorial.mp4)     
+[Tutorial Video](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/Tutorial/Tutorial.mp4)
   
 **新特性：**  
 
@@ -18,17 +29,6 @@ v 2.0.1:
 v 2.1.0:  
   
  (1) 添加了LiveStream接口，适配新版本Avatar。  
-    
-      
-[Plugin For UE4.27  v 2.0.1](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/CMMotionCapture_4.27/CMMotionCapture_4.27_2.0.1.rar)   
-[Plugin For UE5.0  v 2.1.1](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/CMMotionCapture_5.0/CMMotionCapture_5.0_2.1.1.rar)   
-[Plugin For UE5.1  v 2.1.1](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/CMMotionCapture_5.01/CMMotionCapture_5.1_2.1.1.rar)      
-
-[插件帮助文档](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/Manual/Manual_CN.docx)  
-[Manual](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/Manual_ENG/Manual_ENG.docx)  
-      
-[插件视频教学](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/Tutorial/Tutorial.mp4)     
-[Tutorial Video](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/Tutorial/Tutorial.mp4)
     
     
 ### 1 引言
