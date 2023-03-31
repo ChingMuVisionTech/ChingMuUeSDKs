@@ -2,16 +2,6 @@
 
 ### **插件下载：**   
 
-
-[CMPlugin For UE4.27 v 1.0](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/CMPlugin_UE4.27/CMPlugin_UE4.27.zip)   
-[CMPlugin For UE5.0 v 1.0](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/CMPlugin_UE5.0/CMPlugin_UE5.0.rar)  
-[CMPlugin For UE5.1  v 1.0](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/UE5.1/CMPlugin_UE5.1.rar) 
-
-[插件帮助文档](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/new_UE_DOC/for.UE.doc)
-
-[插件视频教学](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/help/Help.mp4)  
-  
-### **测试版本(Beta Version)：**   
   
 **新特性：**  
 
