@@ -4,9 +4,9 @@
 
     
       
-[Plugin For UE4.27  v 2.0.1a](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/CMMotionCapture_4.27/CMMotionCapture_4.27_2.0.1b.rar)   
-[Plugin For UE5.0  v 2.1.1a](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/CMMotionCapture_5.0/CMMotionCapture_5.0_2.1.1b.rar)   
-[Plugin For UE5.1  v 2.1.1a](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/CMMotionCapture_5.01/CMMotionCapture_5.1_2.1.1b.rar)      
+[Plugin For UE4.27  v 2.0.1a](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/CMMotionCapture_4.27/CMMotionCapture_4.27_2.0.1a.rar)   
+[Plugin For UE5.0  v 2.1.1b](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/CMMotionCapture_5.0/CMMotionCapture_5.0_2.1.1b.rar)   
+[Plugin For UE5.1  v 2.1.1b](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/CMMotionCapture_5.01/CMMotionCapture_5.1_2.1.1b.rar)      
 
 [插件帮助文档](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/Manual/Manual_CN.docx)  
 [Manual](https://github.com/ChingMuVisionTech/ChingMuUeSDKs/releases/download/Manual_ENG/Manual_ENG.docx)  
